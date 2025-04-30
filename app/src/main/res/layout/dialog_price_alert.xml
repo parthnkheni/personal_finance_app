@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/alertPriceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target Price"
+        android:inputType="numberDecimal" />
+
+    <RadioGroup
+        android:id="@+id/directionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <RadioButton
+            android:id="@+id/radioAbove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Above" />
+
+        <RadioButton
+            android:id="@+id/radioBelow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Below"
+            android:layout_marginStart="24dp"/>
+    </RadioGroup>
+</LinearLayout>

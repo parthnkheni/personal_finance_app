@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.FinanceApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/purple_700</item> <!-- match ActionBar color -->
+        <item name="android:windowTranslucentStatus">false</item>
+
+        <!-- your existing theme colors -->
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+</resources>
